@@ -4,7 +4,6 @@ class TImages{
   static const String lightAppLogo = "assets/logos/splash_screen_logo.png";
   static const String darkAppLogo = "assets/logos/splash_screen_logo.png";
   static const String loginScreenHeader = "assets/logos/login_screen_header.png";
-  // etc, whatever need
 
   //Social Logos
   static const String google = "assets/icons/social_logo/google.png";
@@ -24,6 +23,11 @@ class TImages{
   static const String deliveredInPlaneIllustration = "";
   static const String deliveredEmailIllustration = "";
   static const String verifyIllustration = "";
+
+  // Banner
+  static const String promoBanner1 = "assets/images/banner/promo_banner 1.png";
+  static const String promoBanner2 = "assets/images/banner/promo_banner 2.png";
+  static const String promoBanner3 = "assets/images/banner/promo_banner 3.png";
 
 
 
