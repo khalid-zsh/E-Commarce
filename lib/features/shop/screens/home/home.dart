@@ -1,3 +1,4 @@
+import 'package:e_commarce/common/widgets/products/product_card/product_card_vertical.dart';
 import 'package:e_commarce/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:e_commarce/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:e_commarce/features/shop/screens/home/widgets/promo_slider.dart';
@@ -53,6 +54,9 @@ class HomeScreen extends StatelessWidget {
               padding: EdgeInsets.all(TSizes.defaultSpace),
               child: TPromoSlider(banners: [TImages.promoBanner1,TImages.promoBanner2,TImages.promoBanner3],),
             ),
+
+            /// Popular Product
+            TProductCardVertical(),
           ],
         ),
       ),
